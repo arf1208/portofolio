@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Arief Rahman - Junior Informatics Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="animate__animated animate__fadeInDown">
+        <div class="logo">AR<span>IEF</span></div>
+        <ul>
+            <li><button onclick="showPage('home')" class="nav-btn">Home</button></li>
+            <li><button onclick="showPage('project')" class="nav-btn">Proyek Absensi</button></li>
+            <li><button onclick="showPage('certificate')" class="nav-btn">Sertifikat</button></li>
+            <li><button onclick="showPage('contact')" class="nav-btn login-btn">Kontak</button></li>
+        </ul>
+    </nav>
+
+    <div id="content-area">
+        <section id="home" class="page active animate__animated animate__fadeIn">
+            <div class="hero">
+                <div class="hero-text">
+                    <h5 class="animate__animated animate__fadeInLeft">Halo, Saya</h5>
+                    <h1 class="animate__animated animate__backInLeft">Arief Rahman</h1>
+                    <h3 class="animate__animated animate__fadeInUp animate__delay-1s">Junior Informatics Engineer</h3>
+                    <p class="animate__animated animate__fadeInUp animate__delay-1s">
+                        Spesialis dalam pengembangan sistem IoT dan integrasi perangkat keras dengan web berbasis PHP & MySQL.
+                    </p>
+                    <div class="btn-group animate__animated animate__zoomIn animate__delay-2s">
+                        <button class="main-btn ripple" onclick="showPage('project')">Lihat Karya Terakhir</button>
+                        <button class="alt-btn ripple" onclick="window.print()">Download CV</button>
+                    </div>
+                </div>
+            </div>
+        </section>
